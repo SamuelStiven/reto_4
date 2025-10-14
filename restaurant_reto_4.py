@@ -153,7 +153,7 @@ class Flan(Desserts):
         super().__init__("Flan", 4.990, "Creamy caramel flan topped with whipped cream.")
 
 if __name__ == "__main__":
-    restaurant = Restaurant("La Esquina Del Sabor", "123 Flavor St, Food City", "555-1234")
+    restaurant = Restaurant("Los Patrones", "Chapinero Central, calle 78", "789023324")
     
     order = Order()
     order.add_item(BeefPatacones(), 2)
